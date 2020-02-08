@@ -37,6 +37,7 @@ public class QuestionDetails extends AppCompatActivity {
         rvAnswer = findViewById(R.id.rvAnswers);
         setData(this);
     }
+
     @SuppressLint("SetTextI18n")
     private void setData(Context context){
         if(QuestionAdapter.item!=null){
